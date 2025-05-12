@@ -54,7 +54,7 @@ namespace Week_5_Assignment_5._4._2
             int rightDiagonalSum = 0;
             for (int i = 0; i < size; i++)
             {
-                rightDiagonalSum += matrix[i, size - i - 1];
+                rightDiagonalSum += matrix[i, i];
             }
 
             Console.WriteLine("Addition of the right Diagonal elements is: " + rightDiagonalSum);
